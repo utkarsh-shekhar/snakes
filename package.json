@@ -1,0 +1,32 @@
+{
+  "name": "snakes",
+  "version": "1.0.0",
+  "description": "A multiplayer snake game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/nodemon/bin/nodemon.js server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkarsh-shekhar/snakes.git"
+  },
+  "keywords": [
+    "snake",
+    "game"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utkarsh-shekhar/snakes/issues"
+  },
+  "homepage": "https://github.com/utkarsh-shekhar/snakes#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
